@@ -1597,8 +1597,6 @@ h5 {
 
 /* Hotel Room Grid View & Recent Post */
 .top-offer {
-    padding: 60px 0;
-    background: #ffffff;
     color: #07253f;
 }
 .room-grid-view {
@@ -1611,6 +1609,7 @@ h5 {
 }
 .room-grid-view .room-info {
     padding: 15px 15px 0px;
+    background-color: #fff;
 }
 .room-grid-view .room-info .room-title h5 {
     font-size: 16px;
@@ -4441,6 +4440,7 @@ h5 {
 .confirmation-detail {
     margin-top: 40px;
     border: 1px solid #e6e6e6;
+    background-color: #fff;
     box-shadow: 0px 0px 5px #e6e6e6;
     margin-bottom: 40px;
     overflow: hidden;
@@ -5774,7 +5774,7 @@ h5 {
     text-transform: uppercase;
 }
 #recent-blog {
-    background: #f7f7f7;
+    background: transparent
 }
 #recent-blog .owl-controls {
     margin-top: 30px;
@@ -6608,6 +6608,7 @@ h5 {
 }
 .product-brief-info .detail-body {
     padding: 15px 30px 26px;
+    background-color: #fff;
 }
 .product-brief-info .detail-body ul {
     padding: 0px;
@@ -6617,6 +6618,7 @@ h5 {
 .product-brief-info .detail-body ul li {
     padding: 10px 0px;
     border-bottom: 1px dashed #e6e6e6;
+    
 }
 .product-brief-info .detail-body ul li:before {
     content: "\f058";
@@ -7469,4 +7471,43 @@ h5 {
 .last-text-section
 {
     padding-top: 7rem;
+}
+
+/*Type of parts*/
+.type-car-h2 h2
+{
+    padding: 3rem;
+    font-weight: 600;
+}
+.card-main-box
+{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+.car-type-box
+{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    flex-direction: column;
+    align-self: flex-start;
+}
+.car-type-box h3
+{
+    font-weight: 700;
+}
+.car-type-box p
+{
+    padding: 20px;
+}
+.breadcrumb
+{
+    background-color: transparent;
 }
