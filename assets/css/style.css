@@ -2090,7 +2090,7 @@ h5 {
     background: #0a3152;
     color: #fff;
     padding: 15px;
-    margin-bottom: 45px;
+    margin-top: 50px;
 }
 .price-filter .ui-slider-horizontal {
     height: 10px;
@@ -3619,9 +3619,10 @@ h5 {
 *********************************************************************************/
 .sidebar-booking-box {
     position: relative;
+    background-color: #092b4e;
 }
 .sidebar-booking-box h3 {
-    background: #f2676b none repeat scroll 0 0;
+    background: #092b4e none repeat scroll 0 0;
     color: #ffffff;
     padding: 22px 0;
     font-weight: bold;
@@ -3630,10 +3631,9 @@ h5 {
     margin: 0px;
 }
 .sidebar-booking-box h3:after {
-    background: #f2676b none repeat scroll 0 0;
+    background: #092b4e none repeat scroll 0 0;
     border-radius: 50%;
     color: #fff;
-    content: "\f044";
     font-family: "FontAwesome";
     left: 45%;
     padding: 10px 17px;
@@ -3646,7 +3646,7 @@ h5 {
     margin-bottom: 30px;
 }
 .sidebar-assistance-box h3 {
-    background: #f2676b none repeat scroll 0 0;
+    background: #092b4e none repeat scroll 0 0;
     color: #ffffff;
     padding: 22px 0;
     font-weight: bold;
@@ -3655,7 +3655,7 @@ h5 {
     margin: 0px;
 }
 .sidebar-assistance-box h3:after {
-    background: #f2676b none repeat scroll 0 0;
+    background: #092b4e none repeat scroll 0 0;
     border-radius: 50%;
     color: #fff;
     content: "\f095";
@@ -3669,7 +3669,7 @@ h5 {
     margin-top: 10px;
 }
 .assistance-box-body {
-    background: #e6e6e6;
+    background: #092b4e;
     padding: 35px 20px 20px;
     box-shadow: 0px 0px 5px #e6e6e6;
 }
@@ -3685,9 +3685,9 @@ h5 {
     background: #ffffff;
 }
 .booking-box-body {
-    background: #e6e6e6 none repeat scroll 0 0;
+    background: #062c51 none repeat scroll 0 0;
     box-shadow: 0 0 5px #e6e6e6;
-    padding: 15px 5px 0px;
+    padding: 15px 5px 80px;
 }
 .booking-box-body .room-price h5 {
     margin-top: 30px;
@@ -3728,9 +3728,10 @@ h5 {
     margin-left: 10px;
 }
 .booking-box-body label {
-    margin-top: 25px;
     font-weight: normal;
     font-size: 14px;
+     margin-top: 10px;
+     color: #fff;
 }
 .booking-box-body .form-control {
     border: none;
@@ -3739,7 +3740,7 @@ h5 {
     height: 40px;
 }
 .booking-box-body .input-group-addon {
-    background-color: #f2676b;
+    background-color: #ee2334;
     border: medium none;
     border-radius: 0;
     color: #fff;
@@ -7510,4 +7511,12 @@ h5 {
 .breadcrumb
 {
     background-color: transparent;
+}
+.bod-box-btn
+{
+    margin-top: 1rem;
+}
+.side-box-category
+{
+   padding: 10px;
 }
