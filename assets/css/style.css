@@ -2849,8 +2849,8 @@ h5 {
     overflow: hidden;
 }
 .holiday-grid-view:hover {
-    border: 1px solid #f19c4f;
-    box-shadow: 0px 0px 5px #f19c4f;
+    border: 1px solid #062c51;
+    box-shadow: 0px 0px 5px #062c51;
 }
 .holiday-grid-view .holiday-header-wrapper {
     position: relative;
@@ -2893,18 +2893,32 @@ h5 {
     font-size: 13px;
 }
 .holiday-grid-view .holiday-details {
+    font-size: 1rem;
     overflow: hidden;
-    padding-bottom: 25px;
     padding-top: 10px;
+    padding-bottom: 15px;
+    background-color: #fff;
 }
-.holiday-grid-view .holiday-details h5 {
+.holiday-grid-view .holiday-details hr{
+    overflow: hidden;
+height: 5px;
+border: 0px solid #c2c0c1;
+border-top-width: 2px;
+}
+.holiday-grid-view .holiday-details h3 {
     font-weight: bold;
     margin-bottom: 0px;
     margin-top: 15px;
 }
+.holiday-grid-view .holiday-details h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    text-align: left;
+}
 .holiday-grid-view .holiday-details p {
     margin-bottom: 0px;
-    margin-top: 15px;
+    padding-top: 3px;
 }
 .holiday-grid-view .holiday-details i {
     margin-right: 10px;
@@ -7519,4 +7533,21 @@ h5 {
 .side-box-category
 {
    padding: 10px;
+}
+.holiday-grid-view .holiday-details .gbtn
+{
+    width: 100%;
+margin-top: 1rem;
+background-color: #ef2334;
+border: transparent;
+color: #fff;
+}
+.red-text
+{
+    color: #ef2336;
+}
+.aed-blue
+{
+    color: #062c51;
+    font-size:1.2em;
 }
