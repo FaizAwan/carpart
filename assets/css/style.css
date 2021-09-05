@@ -2087,14 +2087,13 @@ h5 {
     width: 40px;
 }
 .filter-area {
-    background: #0a3152;
-    color: #fff;
+    background: #fff;
     padding: 15px;
     margin-top: 50px;
 }
 .price-filter .ui-slider-horizontal {
     height: 10px;
-    background: #ffffff;
+    background: #e6e6e6;
 }
 .price-filter label {
     display: none;
@@ -2104,12 +2103,14 @@ h5 {
     text-align: left;
 }
 .price-filter .ui-slider .ui-slider-range {
-    background: #f19c4f;
+    background: #ef2334;
     border: 0 none;
     display: block;
     font-size: 0.7em;
     position: absolute;
     z-index: 1;
+        align-items: center;
+
 }
 .price-filter .ui-slider-horizontal .ui-slider-range {
     top: 0;
@@ -2127,20 +2128,20 @@ h5 {
     z-index: 2;
 }
 .price-filter .ui-slider .ui-slider-handle:before {
-    content: "\f067";
-    color: red;
+    content: "\f192";
     font-family: FontAwesome;
-    padding: 5px;
-    background: #00adef;
-    color: #ffffff;
+    background: #0a3152;
+ padding: 5px;
+    color: #ef2334;
+    border: none;
 }
 .price-filter input {
-    background: #0a3152;
-    border: none;
-    color: #f19c4f;
+    background: #fff;
+    border: 2px solid #fff;
+    color: #0a3152;
     font-weight: bold;
     letter-spacing: 1px;
-    font-size: 18px;
+    font-size: 20px;
     width: 100%;
 }
 .filter-area h4 {
@@ -2152,9 +2153,7 @@ h5 {
     margin-right: 5px;
 }
 .filter-area h5 {
-    color: #00adef;
     margin-top: 0;
-    font-weight: bold;
     letter-spacing: 1px;
 }
 .filter-area ul {
@@ -2197,7 +2196,7 @@ h5 {
     height: 40px;
 }
 .star-filter li i {
-    color: #f19c4f;
+    color: #ef2334;
 }
 .sort-area
     .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
@@ -7594,4 +7593,15 @@ padding-left: 0px;
   padding-right: 1re
   text-align: left;
 
+}
+/* Category Icons*/
+.category-icon 
+{
+    width:10%;
+    height: 30%;
+
+}
+.panel-body
+{
+    border-top: 2px solid #fff;
 }
