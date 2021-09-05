@@ -2843,7 +2843,7 @@ h5 {
     background-attachment: fixed !important;
 }
 .holiday-grid-view {
-    margin-top: 40px;
+    margin-bottom: 40px;
     border: 1px solid #e6e6e6;
     box-shadow: 0px 0px 5px #e6e6e6;
     overflow: hidden;
@@ -3634,11 +3634,12 @@ border-top-width: 2px;
 .sidebar-booking-box {
     position: relative;
     background-color: #092b4e;
+    border-radius: 10px;
 }
 .sidebar-booking-box h3 {
     background: #092b4e none repeat scroll 0 0;
     color: #ffffff;
-    padding: 22px 0;
+        padding:40px 0px 10px 0px;
     font-weight: bold;
     letter-spacing: 1px;
     position: relative;
@@ -4160,19 +4161,17 @@ border-top-width: 2px;
     box-shadow: 0px 0px 5px #e6e6e6;
 }
 .booking-sidebar .sidebar-item h4 {
-    background: #e6e6e6 none repeat scroll 0 0;
+    background: #fff none repeat scroll 0 0;
     padding: 20px 15px;
     font-weight: bold;
     letter-spacing: 1px;
-    text-transform: uppercase;
     margin: 0px;
 }
 .booking-sidebar .sidebar-item h4 i {
     color: #f2676b;
     margin-right: 10px;
 }
-.booking-sidebar .sidebar-body {
-    padding: 20px;
+.booking-sidebar{
 }
 .booking-sidebar .sidebar-body .table {
     margin-bottom: 0px;
@@ -6818,7 +6817,7 @@ border-top-width: 2px;
 }
 .main-footer .links h4,
 .main-footer .contact-box h4,
-.we-accept h4 {
+.we-accept h4{
     color: #fff;
     margin-top: 0px;
     font-weight: 700;
@@ -6864,7 +6863,7 @@ border-top-width: 2px;
 .we-accept ul li,
 .main-footer-nav ul li {
     display: inline;
-    margin: 0px 5px;
+    margin-right: 7px;
 }
 .main-footer-nav {
     padding: 30px 0px;
@@ -7435,7 +7434,7 @@ border-top-width: 2px;
 .we-accept img
 {
     border: 1px solid #fff;
-    border-radius: 6px;
+    border-radius: 3px;
 }
 #newsletter-button
 {
@@ -7541,6 +7540,7 @@ margin-top: 1rem;
 background-color: #ef2334;
 border: transparent;
 color: #fff;
+ border-radius:5px;
 }
 .red-text
 {
@@ -7550,4 +7550,101 @@ color: #fff;
 {
     color: #062c51;
     font-size:1.2em;
+}
+.empty
+{
+    padding-top: 9rem;
+    padding-bottom: 17.9rem;
+    height: 100%;
+}
+#category-section
+{
+    margin: 20px;
+}
+.footer-follow-us h4 {
+    padding: 30px;
+    text-align: left;
+    color: #fff;
+    margin-top: 0px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+/*Newest button section*/
+.switchToggle input[type=checkbox] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+    position: absolute;
+}
+
+.switchToggle label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 70px;
+    max-width: 70px;
+    height: 30px;
+    background: #d1d1d1;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+}
+
+.switchToggle label:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 26px;
+    height: 26px;
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+
+.switchToggle input:checked+label,
+.switchToggle input:checked+input+label {
+    background: #3e98d3;
+}
+
+.switchToggle input+label:before,
+.switchToggle input+input+label:before {
+    content: 'No';
+    position: absolute;
+    top: 5px;
+    left: 35px;
+    width: 26px;
+    height: 26px;
+    border-radius: 90px;
+    transition: 0.3s;
+    text-indent: 0;
+    color: #fff;
+}
+
+.switchToggle input:checked+label:before,
+.switchToggle input:checked+input+label:before {
+    content: 'Yes';
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 26px;
+    height: 26px;
+    border-radius: 90px;
+    transition: 0.3s;
+    text-indent: 0;
+    color: #fff;
+}
+
+.switchToggle input:checked+label:after,
+.switchToggle input:checked+input+label:after {
+    left: calc(100% - 2px);
+    transform: translateX(-100%);
+}
+
+.switchToggle label:active:after {
+    width: 60px;
+}
+
+.toggle-switchArea {
+    margin: 10px 0 10px 0;
 }
