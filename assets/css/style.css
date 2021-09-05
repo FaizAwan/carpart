@@ -7578,6 +7578,9 @@ color: #fff;
    
     padding: 10px;
 }
+.steering-text
+{
+}
 .steering-text ul
 {
 list-style: none;
@@ -7588,7 +7591,7 @@ padding-left: 0px;
 }
 .steering-text ul a{
   display: block;
-  padding-right: 1rem;
+  padding-right: 1re
   text-align: left;
 
 }
